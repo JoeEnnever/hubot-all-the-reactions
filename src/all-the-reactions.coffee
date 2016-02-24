@@ -13,4 +13,4 @@
 #   Joe Ennever <joe@dwnld.me>
 
 module.exports = (robot) ->
-  console.log(JSON.stringify(robot.adapter) 
+  console.log(JSON.stringify(robot.adapter)
