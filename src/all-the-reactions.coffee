@@ -13,9 +13,9 @@
 #   Joe Ennever <joe@dwnld.me>
 
 module.exports = (robot) ->
-  console.log(JSON.stringify(res.send))
   # robot.respond /hello/, (res) ->
   #   res.reply "hello!"
 
-  # robot.hear /orly/, ->
-  #   res.send "yarly"
+   robot.hear /orly/, (res) ->
+     console.log(JSON.stringify(res.send))
+     res.send "yarly"
