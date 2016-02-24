@@ -13,7 +13,7 @@
 #   Joe Ennever <joe@dwnld.me>
 
 module.exports = (robot) ->
-  debugger
+  console.log(JSON.stringify(res.send))
   # robot.respond /hello/, (res) ->
   #   res.reply "hello!"
 
